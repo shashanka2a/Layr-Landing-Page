@@ -1,0 +1,45 @@
+[09:22:03.978] Running build in Washington, D.C., USA (East) – iad1
+[09:22:03.979] Build machine configuration: 2 cores, 8 GB
+[09:22:03.993] Cloning github.com/shashanka2a/Layr-Landing-Page (Branch: main, Commit: 62b7e35)
+[09:22:04.300] Previous build caches not available
+[09:22:06.469] Cloning completed: 2.476s
+[09:22:06.815] Running "vercel build"
+[09:22:07.240] Vercel CLI 47.1.1
+[09:22:07.577] WARNING: You should not upload the `.next` directory.
+[09:22:07.584] Installing dependencies...
+[09:22:22.922] 
+[09:22:22.922] added 466 packages in 15s
+[09:22:22.923] 
+[09:22:22.923] 146 packages are looking for funding
+[09:22:22.923]   run `npm fund` for details
+[09:22:22.976] Detected Next.js version: 15.5.3
+[09:22:22.980] Running "npm run build"
+[09:22:23.090] 
+[09:22:23.091] > nextjs-app@0.1.0 build
+[09:22:23.091] > next build
+[09:22:23.091] 
+[09:22:23.933]    ▲ Next.js 15.5.3
+[09:22:23.934] 
+[09:22:24.030]    Creating an optimized production build ...
+[09:22:39.553]  ✓ Compiled successfully in 13.0s
+[09:22:39.560]    Linting and checking validity of types ...
+[09:22:44.837] 
+[09:22:44.840] ./components/figma/ImageWithFallback.tsx
+[09:22:44.841] 21:9  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+[09:22:44.841] 25:5  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+[09:22:44.841] 
+[09:22:44.841] info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/app/api-reference/config/eslint#disabling-rules
+[09:22:48.469] Failed to compile.
+[09:22:48.469] 
+[09:22:48.470] ./components/ui/calendar.tsx:63:9
+[09:22:48.470] Type error: Object literal may only specify known properties, and 'IconLeft' does not exist in type 'Partial<CustomComponents>'.
+[09:22:48.470] 
+[09:22:48.470] [0m [90m 61 |[39m       }}
+[09:22:48.470]  [90m 62 |[39m       components[33m=[39m{{
+[09:22:48.470] [31m[1m>[22m[39m[90m 63 |[39m         [33mIconLeft[39m[33m:[39m ({ className[33m,[39m [33m...[39mprops }) [33m=>[39m (
+[09:22:48.471]  [90m    |[39m         [31m[1m^[22m[39m
+[09:22:48.471]  [90m 64 |[39m           [33m<[39m[33mChevronLeft[39m className[33m=[39m{cn([32m"size-4"[39m[33m,[39m className)} {[33m...[39mprops} [33m/[39m[33m>[39m
+[09:22:48.471]  [90m 65 |[39m         )[33m,[39m
+[09:22:48.471]  [90m 66 |[39m         [33mIconRight[39m[33m:[39m ({ className[33m,[39m [33m...[39mprops }) [33m=>[39m ([0m
+[09:22:48.495] Next.js build worker exited with code: 1 and signal: null
+[09:22:48.516] Error: Command "npm run build" exited with 1
