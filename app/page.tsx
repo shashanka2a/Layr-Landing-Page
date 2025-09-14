@@ -194,32 +194,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Social Proof */}
-      <section className="py-20 px-6">
-        <div className="max-w-4xl mx-auto text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            viewport={{ once: true }}
-          >
-            <div className="flex items-center justify-center gap-8 mb-8 text-muted-foreground">
-              <div className="flex items-center gap-2">
-                <Users className="h-5 w-5" />
-                <span>10,000+ builders</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <Building className="h-5 w-5" />
-                <span>500+ companies</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <Star className="h-5 w-5 fill-current text-yellow-500" />
-                <span>4.9/5 rating</span>
-              </div>
-            </div>
-          </motion.div>
-        </div>
-      </section>
 
       {/* Footer CTA */}
       <section className="py-20 px-6 bg-primary text-primary-foreground">
