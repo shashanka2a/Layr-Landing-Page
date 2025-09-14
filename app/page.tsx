@@ -1,10 +1,11 @@
 'use client';
 
+import React from 'react';
 import { motion } from 'motion/react';
 import { ArrowRight, Layers, Zap, Target, ChevronRight, Star, Users, Building } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { Card, CardContent } from '@/components/ui/card';
-import { ImageWithFallback } from '@/components/figma/ImageWithFallback';
+import { Button } from '../components/ui/button';
+import { Card, CardContent } from '../components/ui/card';
+import { ImageWithFallback } from '../components/figma/ImageWithFallback';
 
 export default function Home() {
   return (
