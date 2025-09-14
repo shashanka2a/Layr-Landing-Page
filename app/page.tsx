@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { motion } from 'motion/react';
-import { ArrowRight, Layers, Zap, Target, ChevronRight, Star, Users, Building } from 'lucide-react';
+import { ArrowRight, Layers, Zap, Target, ChevronRight } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Card, CardContent } from '../components/ui/card';
 import { ImageWithFallback } from '../components/figma/ImageWithFallback';
@@ -194,7 +194,6 @@ export default function Home() {
         </div>
       </section>
 
-
       {/* Footer CTA */}
       <section className="py-20 px-6 bg-primary text-primary-foreground">
         <div className="max-w-4xl mx-auto text-center">
@@ -216,7 +215,7 @@ export default function Home() {
                 Get Started Free
                 <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
               </Button>
-              <Button size="lg" variant="outline" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
+              <Button size="lg" variant="ghost" className="border border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 hover:border-primary-foreground">
                 Schedule Demo
               </Button>
             </div>

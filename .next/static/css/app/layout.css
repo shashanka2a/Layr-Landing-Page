@@ -1209,6 +1209,12 @@
   .border-primary-foreground {
     border-color: var(--primary-foreground);
   }
+  .border-primary-foreground\/30 {
+    border-color: var(--primary-foreground);
+    @supports (color: color-mix(in lab, red, red)) {
+      border-color: color-mix(in oklab, var(--primary-foreground) 30%, transparent);
+    }
+  }
   .border-sidebar-border {
     border-color: var(--sidebar-border);
   }
@@ -2309,6 +2315,13 @@
       z-index: 20;
     }
   }
+  .hover\:border-primary-foreground {
+    &:hover {
+      @media (hover: hover) {
+        border-color: var(--primary-foreground);
+      }
+    }
+  }
   .hover\:bg-accent {
     &:hover {
       @media (hover: hover) {
@@ -2354,6 +2367,16 @@
     &:hover {
       @media (hover: hover) {
         background-color: var(--primary-foreground);
+      }
+    }
+  }
+  .hover\:bg-primary-foreground\/10 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--primary-foreground);
+        @supports (color: color-mix(in lab, red, red)) {
+          background-color: color-mix(in oklab, var(--primary-foreground) 10%, transparent);
+        }
       }
     }
   }
