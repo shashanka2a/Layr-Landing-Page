@@ -110,23 +110,25 @@ export default function Home() {
               whileHover={{ y: -8 }}
               className="group"
             >
-              <Card className="h-full border-0 shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden">
-                <div className="h-2 bg-gradient-to-r from-orange-400 to-orange-600" />
-                <CardContent className="p-8">
-                  <div className="w-16 h-16 bg-orange-100 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-                    <Target className="h-8 w-8 text-orange-600" />
-                  </div>
-                  <h3 className="text-2xl mb-4 text-orange-900">Logora</h3>
-                  <p className="text-muted-foreground mb-6 leading-relaxed">
-                    Design beautiful logos and brand identities with AI-powered tools. 
-                    Create consistent visual systems that scale.
-                  </p>
-                  <Button variant="ghost" className="group/btn p-0 h-auto text-orange-600 hover:text-orange-700">
-                    Learn more
-                    <ChevronRight className="ml-1 h-4 w-4 transition-transform group-hover/btn:translate-x-1" />
-                  </Button>
-                </CardContent>
-              </Card>
+              <a href="https://www.logora.design/" target="_blank" rel="noopener noreferrer" className="block h-full">
+                <Card className="h-full border-0 shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden cursor-pointer">
+                  <div className="h-2 bg-gradient-to-r from-orange-400 to-orange-600" />
+                  <CardContent className="p-8">
+                    <div className="w-16 h-16 bg-orange-100 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                      <Target className="h-8 w-8 text-orange-600" />
+                    </div>
+                    <h3 className="text-2xl mb-4 text-orange-900">Logora</h3>
+                    <p className="text-muted-foreground mb-6 leading-relaxed">
+                      Design beautiful logos and brand identities with AI-powered tools. 
+                      Create consistent visual systems that scale.
+                    </p>
+                    <Button variant="ghost" className="group/btn p-0 h-auto text-orange-600 hover:text-orange-700">
+                      Learn more
+                      <ChevronRight className="ml-1 h-4 w-4 transition-transform group-hover/btn:translate-x-1" />
+                    </Button>
+                  </CardContent>
+                </Card>
+              </a>
             </motion.div>
 
             {/* Deckr Card */}
@@ -138,23 +140,25 @@ export default function Home() {
               whileHover={{ y: -8 }}
               className="group"
             >
-              <Card className="h-full border-0 shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden">
-                <div className="h-2 bg-gradient-to-r from-teal-400 to-teal-600" />
-                <CardContent className="p-8">
-                  <div className="w-16 h-16 bg-teal-100 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-                    <Layers className="h-8 w-8 text-teal-600" />
-                  </div>
-                  <h3 className="text-2xl mb-4 text-teal-900">Deckr</h3>
-                  <p className="text-muted-foreground mb-6 leading-relaxed">
-                    Create stunning presentations and pitch decks. Smart templates and 
-                    collaborative editing make storytelling effortless.
-                  </p>
-                  <Button variant="ghost" className="group/btn p-0 h-auto text-teal-600 hover:text-teal-700">
-                    Learn more
-                    <ChevronRight className="ml-1 h-4 w-4 transition-transform group-hover/btn:translate-x-1" />
-                  </Button>
-                </CardContent>
-              </Card>
+              <a href="https://www.deckr.design/" target="_blank" rel="noopener noreferrer" className="block h-full">
+                <Card className="h-full border-0 shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden cursor-pointer">
+                  <div className="h-2 bg-gradient-to-r from-teal-400 to-teal-600" />
+                  <CardContent className="p-8">
+                    <div className="w-16 h-16 bg-teal-100 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                      <Layers className="h-8 w-8 text-teal-600" />
+                    </div>
+                    <h3 className="text-2xl mb-4 text-teal-900">Deckr</h3>
+                    <p className="text-muted-foreground mb-6 leading-relaxed">
+                      Create stunning presentations and pitch decks. Smart templates and 
+                      collaborative editing make storytelling effortless.
+                    </p>
+                    <Button variant="ghost" className="group/btn p-0 h-auto text-teal-600 hover:text-teal-700">
+                      Learn more
+                      <ChevronRight className="ml-1 h-4 w-4 transition-transform group-hover/btn:translate-x-1" />
+                    </Button>
+                  </CardContent>
+                </Card>
+              </a>
             </motion.div>
 
             {/* Buidl Card */}
@@ -166,23 +170,25 @@ export default function Home() {
               whileHover={{ y: -8 }}
               className="group"
             >
-              <Card className="h-full border-0 shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden">
-                <div className="h-2 bg-gradient-to-r from-purple-400 via-blue-500 to-blue-600" />
-                <CardContent className="p-8">
-                  <div className="w-16 h-16 bg-gradient-to-br from-purple-100 to-blue-100 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-                    <Zap className="h-8 w-8 text-purple-600" />
-                  </div>
-                  <h3 className="text-2xl mb-4 bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">Buidl</h3>
-                  <p className="text-muted-foreground mb-6 leading-relaxed">
-                    Build and deploy applications with speed. From prototypes to production 
-                    with powerful development tools.
-                  </p>
-                  <Button variant="ghost" className="group/btn p-0 h-auto text-purple-600 hover:text-purple-700">
-                    Learn more
-                    <ChevronRight className="ml-1 h-4 w-4 transition-transform group-hover/btn:translate-x-1" />
-                  </Button>
-                </CardContent>
-              </Card>
+              <a href="https://buidl.design/" target="_blank" rel="noopener noreferrer" className="block h-full">
+                <Card className="h-full border-0 shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden cursor-pointer">
+                  <div className="h-2 bg-gradient-to-r from-purple-400 via-blue-500 to-blue-600" />
+                  <CardContent className="p-8">
+                    <div className="w-16 h-16 bg-gradient-to-br from-purple-100 to-blue-100 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                      <Zap className="h-8 w-8 text-purple-600" />
+                    </div>
+                    <h3 className="text-2xl mb-4 bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">Buidl</h3>
+                    <p className="text-muted-foreground mb-6 leading-relaxed">
+                      Build and deploy applications with speed. From prototypes to production 
+                      with powerful development tools.
+                    </p>
+                    <Button variant="ghost" className="group/btn p-0 h-auto text-purple-600 hover:text-purple-700">
+                      Learn more
+                      <ChevronRight className="ml-1 h-4 w-4 transition-transform group-hover/btn:translate-x-1" />
+                    </Button>
+                  </CardContent>
+                </Card>
+              </a>
             </motion.div>
           </div>
         </div>
