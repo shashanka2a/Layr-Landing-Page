@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Layr.plus - Modern Layered Solutions Platform",
-  description: "Discover innovative layered services and solutions with Layr.plus. A modern platform built for scalable, efficient, and user-focused digital experiences.",
-  keywords: ["layered solutions", "platform", "services", "modern", "scalable", "digital", "technology"],
+  title: "Layr.plus - Logo Design, Pitch Deck & Website Builder Tools",
+  description: "Create stunning logos, professional pitch decks, and build powerful websites with Layr.plus. All-in-one platform featuring Logora logo maker, Deckr pitch deck creator, and Buidl website app builder.",
+  keywords: ["logo design", "logo maker", "pitch deck", "pitch deck creator", "website builder", "app builder", "logo generator", "presentation maker", "web design tools", "brand identity", "startup tools", "business tools", "design platform"],
   authors: [{ name: "Layr.plus Team" }],
   creator: "Layr.plus",
   publisher: "Layr.plus",
@@ -24,8 +24,8 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "Layr.plus - Modern Layered Solutions Platform",
-    description: "Discover innovative layered services and solutions with Layr.plus. A modern platform built for scalable, efficient, and user-focused digital experiences.",
+    title: "Layr.plus - Logo Design, Pitch Deck & Website Builder Tools",
+    description: "Create stunning logos with Logora, build professional pitch decks with Deckr, and develop powerful websites with Buidl. Complete design and development platform for modern builders.",
     url: "https://layr.plus",
     siteName: "Layr.plus",
     type: "website",
@@ -35,14 +35,14 @@ export const metadata: Metadata = {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Layr.plus - Modern Layered Solutions Platform",
+        alt: "Layr.plus - Logo Design, Pitch Deck & Website Builder Platform",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Layr.plus - Modern Layered Solutions Platform",
-    description: "Discover innovative layered services and solutions with Layr.plus. A modern platform built for scalable, efficient, and user-focused digital experiences.",
+    title: "Layr.plus - Logo Design, Pitch Deck & Website Builder Tools",
+    description: "Create logos, pitch decks, and websites all in one platform. Professional design tools for logos, presentations, and web development.",
     images: ["/og-image.jpg"],
     creator: "@layrplus",
   },
